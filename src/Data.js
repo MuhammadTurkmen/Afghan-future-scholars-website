@@ -7,6 +7,9 @@ import note from "./Images/takingNotes.jpeg";
 import coffee from "./Images/coffee-with-book.jpeg";
 
 import toefl from "./Images/Toefl.jpeg";
+import collageGirl from "./Images/collageGirl.jpeg";
+import cloud from "./Images/Cloud.jpeg";
+import cupReward from "./Images/cupReward.jpeg";
 
 // Icons
 import { FaLinkedin } from "react-icons/fa";
@@ -118,23 +121,41 @@ export const allPrograms = [
     img: toefl,
   },
   {
-    title: "International Tests Preparation",
-    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
-    img: toefl,
+    title: "Mentorship Program",
+    desc: "Our Mentorship Program connects Afghan girls with experienced mentors from around the world. Through one-on-one guidance, these mentors provide support in academic, professional, and personal development. Participants gain valuable insights, advice, and encouragement, helping them navigate their educational journeys and future careers with confidence. ",
+    img: collageGirl,
   },
   {
-    title: "International Tests Preparation",
-    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
-    img: toefl,
+    title: "Computer Learning Program",
+    desc: "Our Computer Learning Program focuses on equipping Afghan girls with essential digital skills. This program covers basic computer use, Windows, MS Word, MS Excel, MS Powerpoint, Adobe Photoshop, internet navigation, and software proficiency, preparing participants for the modern digital world easily. ",
+    img: usingComputer,
   },
   {
-    title: "International Tests Preparation",
-    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
-    img: toefl,
+    title: "Leadership Program",
+    desc: "The Leadership Program is designed to develop critical leadership skills in young Afghan women. Through workshops, training sessions, and mentorship, participants gain the confidence and capabilities needed to lead and inspire others.",
+    img: cloud,
   },
   {
-    title: "International Tests Preparation",
-    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
-    img: toefl,
+    title: "Scholarships",
+    desc: "We offer guidance and support for securing scholarships, both locally and internationally. Our scholarship program helps students navigate the application process and access financial aid to pursue higher education.",
+    img: coffee,
+  },
+];
+
+export const involvedData = [
+  {
+    img: collageGirl,
+    title: " Be a Volunteer at AFS",
+    desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
+  },
+  {
+    img: collageGirl,
+    title: " Be a Volunteer at AFS",
+    desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
+  },
+  {
+    img: collageGirl,
+    title: " Be a Volunteer at AFS",
+    desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
   },
 ];

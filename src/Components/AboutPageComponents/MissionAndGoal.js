@@ -8,7 +8,7 @@ function MissionAndGoal() {
       <div className="container">
         {missionAndGoal.map(({ img, title, desc }, index) => {
           return (
-            <div className="card">
+            <div className="card" key={index}>
               <img src={img} alt={title} />
               <div>
                 <h1>{title}</h1>
