@@ -28,6 +28,38 @@ function Milestones() {
       </div>
       <div className="success-container">
         <h1 className="title">Our Success</h1>
+        <div className="underline"></div>
+        <div className="boxs-container">
+          {/* box 1 */}
+          <div className="box">
+            <h1>15K+</h1>
+            <p>Number of students</p>
+          </div>
+
+          {/* box 2 */}
+          <div className="box">
+            <h1>75%</h1>
+            <p>Percentage of success</p>
+          </div>
+
+          {/* box 3 */}
+          <div className="box">
+            <h1>35</h1>
+            <p>Numbers of questions</p>
+          </div>
+
+          {/* box 4 */}
+          <div className="box">
+            <h1>25+</h1>
+            <p>Number of experts</p>
+          </div>
+
+          {/* box 5 */}
+          <div className="box">
+            <h1>15+</h1>
+            <p>Years of experience</p>
+          </div>
+        </div>
       </div>
     </Wrapper>
   );
@@ -98,8 +130,39 @@ const Wrapper = styled.div`
   }
 
   a:hover {
-    opacity: 0.8;
     transform: scale(1.1);
+  }
+
+  /* Success Container styles */
+
+  .success-container {
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+  }
+
+  .boxs-container {
+    display: flex;
+    margin-top: 2.2rem;
+
+    .box {
+      background-color: #9bdaf54f;
+      padding: 2.5rem 2rem;
+      flex: 1;
+    }
+
+    .box:nth-last-child(2),
+    .box:nth-last-child(4) {
+      background-color: #25b8f83b;
+      border: 3px solid #9bdaf54f;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 19px;
+    }
   }
 `;
 
