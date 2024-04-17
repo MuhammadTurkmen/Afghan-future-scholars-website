@@ -84,3 +84,21 @@ export const reachUs = [
     text: "Afg.future.scholars.org@gmail.com",
   },
 ];
+
+export const missionAndGoal = [
+  {
+    img: coffee,
+    title: "Our Mission",
+    desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
+  },
+  {
+    img: coffee,
+    title: "Our Mission",
+    desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
+  },
+  {
+    img: coffee,
+    title: "Our Mission",
+    desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
+  },
+];
