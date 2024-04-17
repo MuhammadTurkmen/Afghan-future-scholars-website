@@ -126,6 +126,11 @@ const Wrapper = styled.div`
     text-transform: uppercase;
     border-radius: 5px;
   }
+
+  button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 `;
 
 export default VolunteerForm;
