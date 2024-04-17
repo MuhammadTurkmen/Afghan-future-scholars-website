@@ -16,6 +16,17 @@ function Programs() {
           have the resources and support needed to achieve their dreams. Our
           programs include:
         </p>
+        <div className="programs-container">
+          {allPrograms.map(({ img, title, desc }, index) => {
+            <div className="card" key={index}>
+              <img src={img} alt={title} />
+              <div className="text">
+                <h2>{title}</h2>
+                <h4>{desc}</h4>
+              </div>
+            </div>;
+          })}
+        </div>
       </div>
     </Wrapper>
   );
