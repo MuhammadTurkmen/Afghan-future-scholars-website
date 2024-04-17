@@ -31,7 +31,7 @@ function Navbar() {
 const Wrapper = styled.main`
   background-color: white;
   .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -74,6 +74,7 @@ const Wrapper = styled.main`
 
   .donate:hover {
     transform: scale(1.1);
+    opacity: 0.8;
   }
 
   .active {
