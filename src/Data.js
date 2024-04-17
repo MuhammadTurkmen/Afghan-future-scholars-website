@@ -1,3 +1,5 @@
+import usingComputer from "./Images/using-computer.jpeg";
+
 export const links = [
   {
     name: "Home",
@@ -18,5 +20,23 @@ export const links = [
   {
     name: "Contact us",
     path: "/contact",
+  },
+];
+
+export const milestones_cards = [
+  {
+    title: "TOEFL Class",
+    desc: "Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad",
+    img: usingComputer,
+  },
+  {
+    title: "TOEFL Class",
+    desc: "Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad",
+    img: usingComputer,
+  },
+  {
+    title: "TOEFL Class",
+    desc: "Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad",
+    img: usingComputer,
   },
 ];
