@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Image from "../../Images/coffee-with-book.jpeg";
+import glassesOnBooks from "../../Images/glassesOnBooks.jpeg";
+import bored from "../../Images/bored.jpeg";
+import usingComputer from "../../Images/using-computer.jpeg";
 
 function AboutUs() {
   return (
@@ -20,10 +22,10 @@ function AboutUs() {
         </div>
         <div className="images-container">
           <div className="small-container">
-            <img src={Image} alt="coffee" />
-            <img src={Image} alt="coffee" />
+            <img src={glassesOnBooks} alt="coffee" />
+            <img src={usingComputer} alt="coffee" />
           </div>
-          <img src={Image} alt="coffee" />
+          <img src={bored} alt="coffee" />
         </div>
       </div>
     </Wrapper>
