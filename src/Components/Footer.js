@@ -41,6 +41,10 @@ function Footer() {
         </div>
       </div>
       <div className="black-container">
+        <h4>
+          Designed and developed by <span>Zainab Turkmen</span> and{" "}
+          <span>Muhammad Turkmen</span>
+        </h4>
         <p>All Rights Reserved 2024. Afghanistan Future Scholars</p>
       </div>
     </Wrapper>
@@ -92,6 +96,13 @@ const Wrapper = styled.div`
 
     p {
       font-size: 12px;
+    }
+  }
+
+  h4 {
+    font-weight: 500;
+    span {
+      font-weight: bold;
     }
   }
 `;

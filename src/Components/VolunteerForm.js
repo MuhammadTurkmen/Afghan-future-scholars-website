@@ -118,11 +118,13 @@ const Wrapper = styled.div`
 
   button {
     background-color: #73d1fa;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     border: none;
     box-sizing: border-box;
     font-size: 36px;
     font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
   }
 `;
 
