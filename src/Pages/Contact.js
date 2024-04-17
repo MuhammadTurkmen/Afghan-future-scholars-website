@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdLocalPostOffice } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -39,17 +38,29 @@ function Contact() {
               <MdLocalPostOffice /> Afg.future.scholars.org.@gmail.com
             </p>
             <div className="Links-container">
-              <a href="https://www.facebook.com" target="_blank">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noreferrer">
                 Facebook
               </a>
-              <a href="https://www.twitter.com" target="_blank">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer">
                 Twitter
               </a>
-              <a href="https://www.instagram.com" target="_blank">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noreferrer">
                 {" "}
                 Instagram
               </a>
-              <a href="https://www.linkedIn.com" target="_blank">
+              <a
+                href="https://www.linkedIn.com"
+                target="_blank"
+                rel="noreferrer">
                 LinkedIn
               </a>
             </div>
