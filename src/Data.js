@@ -1,10 +1,14 @@
+// Images
 import usingComputer from "./Images/using-computer.jpeg";
 import book from "./Images/book.jpeg";
 import girl from "./Images/girl-working.jpeg";
 import tablet from "./Images/tablet.jpeg";
 import note from "./Images/takingNotes.jpeg";
-
 import coffee from "./Images/coffee-with-book.jpeg";
+
+import toefl from "./Images/Toefl.jpeg";
+
+// Icons
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -104,5 +108,33 @@ export const missionAndGoal = [
     img: girl,
     title: "Our Goal",
     desc: "Our goal is also clear: to ensure that every Afghan girl, regardless of her socio-political environment, has continuous access to good education. We strive to create a sustainable educational model that empowers these young women to realize their full potential, become influential leaders, and serve as agents of change within their communities and beyond.",
+  },
+];
+
+export const allPrograms = [
+  {
+    title: "International Tests Preparation",
+    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
+    img: toefl,
+  },
+  {
+    title: "International Tests Preparation",
+    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
+    img: toefl,
+  },
+  {
+    title: "International Tests Preparation",
+    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
+    img: toefl,
+  },
+  {
+    title: "International Tests Preparation",
+    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
+    img: toefl,
+  },
+  {
+    title: "International Tests Preparation",
+    desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
+    img: toefl,
   },
 ];
