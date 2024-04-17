@@ -18,13 +18,15 @@ function Programs() {
         </p>
         <div className="programs-container">
           {allPrograms.map(({ img, title, desc }, index) => {
-            <div className="card" key={index}>
-              <img src={img} alt={title} />
-              <div className="text">
-                <h2>{title}</h2>
-                <h4>{desc}</h4>
+            return (
+              <div className="card" key={index}>
+                <img src={img} alt={title} />
+                <div className="text">
+                  <h2>{title}</h2>
+                  <h4>{desc}</h4>
+                </div>
               </div>
-            </div>;
+            );
           })}
         </div>
       </div>
@@ -56,6 +58,18 @@ const Wrapper = styled.div`
     line-height: 40px;
     margin-top: 3.5rem;
     word-spacing: 5px;
+  }
+
+  .programs-container {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .card {
+    display: flex;
+    gap: 3rem;
   }
 `;
 
