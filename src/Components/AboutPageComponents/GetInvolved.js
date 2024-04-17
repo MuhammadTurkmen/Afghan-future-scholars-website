@@ -62,6 +62,17 @@ const Wrapper = styled.div`
     height: 310px;
     border-radius: 100%;
     border: 10px solid #73d1fa;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
   }
 `;
 

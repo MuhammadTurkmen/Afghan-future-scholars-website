@@ -9,7 +9,9 @@ import coffee from "./Images/coffee-with-book.jpeg";
 import toefl from "./Images/Toefl.jpeg";
 import collageGirl from "./Images/collageGirl.jpeg";
 import cloud from "./Images/Cloud.jpeg";
-import cupReward from "./Images/cupReward.jpeg";
+import volunteer from "./Images/Volunteers.jpeg";
+import partnership from "./Images/partnership.jpeg";
+import donate from "./Images/Donate.jpeg";
 
 // Icons
 import { FaLinkedin } from "react-icons/fa";
@@ -144,18 +146,18 @@ export const allPrograms = [
 
 export const involvedData = [
   {
-    img: collageGirl,
-    title: " Be a Volunteer at AFS",
+    img: volunteer,
+    title: "Be a Volunteer at AFS",
     desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
   },
   {
-    img: collageGirl,
-    title: " Be a Volunteer at AFS",
-    desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
+    img: partnership,
+    title: "Partnership with Us",
+    desc: "Partner with AFS to amplify our impact. Whether you are an organization, business, or educational institution, collaborating with us can strengthen our programs and expand our reach. Together, we can create more opportunities for Afghan girls and drive meaningful change.",
   },
   {
-    img: collageGirl,
-    title: " Be a Volunteer at AFS",
-    desc: "Share your time and skills with us to help support our programs and initiatives. As a volunteer, you can contribute to our educational efforts, mentor students, or assist with administrative tasks. Your involvement helps us reach more girls and enhance the quality of our programs.",
+    img: donate,
+    title: "Donate Now",
+    desc: "Support our mission financially by making a donation. Your contributions help us sustain and expand our programs, providing essential resources and support to Afghan girls. Every donation, no matter the size, makes a significant difference in achieving Afghan girls goals.",
   },
 ];
