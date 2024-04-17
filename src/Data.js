@@ -1,5 +1,9 @@
 import usingComputer from "./Images/using-computer.jpeg";
 import book from "./Images/book.jpeg";
+import girl from "./Images/girl-working.jpeg";
+import tablet from "./Images/tablet.jpeg";
+import note from "./Images/takingNotes.jpeg";
+
 import coffee from "./Images/coffee-with-book.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -87,18 +91,18 @@ export const reachUs = [
 
 export const missionAndGoal = [
   {
-    img: coffee,
+    img: note,
     title: "Our Mission",
     desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
   },
   {
-    img: coffee,
-    title: "Our Mission",
-    desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
+    img: tablet,
+    title: "Our Vission",
+    desc: "Our vision is bold and unwavering. We envision a future where Afghan girls, despite the barriers they face, can access world class education that enables them to become leaders, innovators, and changemakers, not just in Afghanistan, but on the global stage.",
   },
   {
-    img: coffee,
-    title: "Our Mission",
-    desc: "to empower Afghan girls by providing them with access to good education. We are committed to make the educational gap caused by socio-political challenges, ensuring that every girl in Afghanistan has the right and opportunity to pursue their academic goals and higher education to the future development of her country.",
+    img: girl,
+    title: "Our Goal",
+    desc: "Our goal is also clear: to ensure that every Afghan girl, regardless of her socio-political environment, has continuous access to good education. We strive to create a sustainable educational model that empowers these young women to realize their full potential, become influential leaders, and serve as agents of change within their communities and beyond.",
   },
 ];
