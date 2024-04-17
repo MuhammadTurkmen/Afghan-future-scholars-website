@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdLocalPostOffice } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -25,10 +28,31 @@ function Contact() {
             <textarea name="" id="message" rows="5"></textarea>
           </form>
           <div className="text-container">
-            <p>
+            <h2>
               If you prefer to contact us another way, feel free to reach us
               below:
+            </h2>
+            <p>
+              <FaPhoneAlt /> +93 7882 75519
             </p>
+            <p>
+              <MdLocalPostOffice /> Afg.future.scholars.org.@gmail.com
+            </p>
+            <div className="Links-container">
+              <a href="https://www.facebook.com" target="_blank">
+                Facebook
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                Twitter
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                {" "}
+                Instagram
+              </a>
+              <a href="https://www.linkedIn.com" target="_blank">
+                LinkedIn
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -95,6 +119,26 @@ const Wrapper = styled.div`
 
   p {
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  .Links-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  a {
+    font-size: 20px;
+    color: #000;
   }
 `;
 

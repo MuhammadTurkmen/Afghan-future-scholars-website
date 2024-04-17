@@ -14,7 +14,10 @@ function Navbar() {
         <div className="links-container">
           {links.map(({ name, path }, index) => {
             return (
-              <NavLink activeClassName="active" key={index} to={path}>
+              <NavLink
+                className={({ isActive }) => (isActive ? "active" : "")}
+                key={index}
+                to={path}>
                 {name}
               </NavLink>
             );
