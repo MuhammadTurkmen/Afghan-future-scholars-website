@@ -62,7 +62,7 @@ const Wrapper = styled.div`
   }
 
   .underline {
-    width: 200px;
+    width: 192px;
     height: 5px;
     background-color: #73d1fa;
     margin: 0 auto;
@@ -130,6 +130,47 @@ const Wrapper = styled.div`
   button:hover {
     opacity: 0.8;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    .underline {
+      height: 3px;
+      width: 107px;
+    }
+
+    .form {
+      width: 100%;
+      padding: 4rem 2.3rem;
+      gap: 2.5rem;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    .nameContainer {
+      flex-direction: column;
+    }
+
+    input {
+      padding: 0.8rem 1rem;
+      font-size: 16px;
+      border: 1px solid #464141;
+    }
+
+    label {
+      font-size: 16px;
+      top: -0.6rem;
+    }
+
+    button {
+      font-size: 16px;
+    }
   }
 `;
 
