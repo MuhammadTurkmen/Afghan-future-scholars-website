@@ -94,7 +94,7 @@ export const reachUs = [
   },
   {
     icon: <MdLocalPostOffice />,
-    text: "Afg.future.scholars.org@gmail.com",
+    text: "Afg.future.scholars. org@gmail.com",
   },
 ];
 

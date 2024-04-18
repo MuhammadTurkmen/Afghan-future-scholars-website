@@ -111,6 +111,22 @@ const Wrapper = styled.div`
       flex-direction: column;
       gap: 8rem;
     }
+
+    .title {
+      font-size: 20px;
+    }
+    .sub-title {
+      font-size: 16px;
+    }
+
+    .reach,
+    .socials {
+      font-size: 20px;
+
+      p {
+        font-size: 20px;
+      }
+    }
   }
 `;
 
