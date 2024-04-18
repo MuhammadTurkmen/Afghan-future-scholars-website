@@ -161,6 +161,11 @@ const Wrapper = styled.main`
         margin-top: 40px;
         margin-bottom: 57px;
         margin-right: -1rem;
+        transition: all 0.3s ease-in-out;
+      }
+
+      span:hover {
+        transform: scale(1.2);
       }
     }
     .active {
@@ -179,6 +184,7 @@ const Wrapper = styled.main`
       margin-left: 1rem;
       margin-bottom: -0.5rem;
       display: block;
+      transition: all 0.3s ease-in-out;
     }
   }
 `;

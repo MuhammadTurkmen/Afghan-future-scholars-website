@@ -105,6 +105,13 @@ const Wrapper = styled.div`
       font-weight: bold;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+      flex-direction: column;
+      gap: 8rem;
+    }
+  }
 `;
 
 export default Footer;
