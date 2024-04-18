@@ -52,6 +52,7 @@ const Wrapper = styled.div`
   .card:nth-last-child(2) {
     flex-direction: row-reverse;
   }
+
   img {
     width: 570px;
     height: 502px;
@@ -67,6 +68,45 @@ const Wrapper = styled.div`
   p {
     font-size: 24px;
     line-height: 40px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding-top: 5rem;
+      gap: 10rem;
+      padding-bottom: 10rem;
+    }
+
+    .card {
+      flex-direction: column;
+      gap: 63px;
+      flex-direction: column-reverse;
+    }
+
+    .card:nth-last-child(3) {
+    }
+
+    .card:nth-last-child(2) {
+      flex-direction: column-reverse;
+    }
+
+    img {
+      width: 100%;
+      height: 253px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .underline {
+      width: 107px;
+      height: 3px;
+    }
+
+    p {
+      font-size: 16px;
+    }
   }
 `;
 

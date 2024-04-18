@@ -118,7 +118,7 @@ export const missionAndGoal = [
 
 export const allPrograms = [
   {
-    title: "International Tests Preparation",
+    title: "IELTS & TOEFL",
     desc: "As we all know, pursuing education outside of Afghanistan often requires TOEFL, IELTS, or Duolingo scores. We are extremely happy to provide comprehensive preparation for these international tests. Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad.",
     img: toefl,
   },

@@ -7,6 +7,7 @@ function GetInvolved() {
     <Wrapper>
       <div className="container">
         <h1>Get Involved</h1>
+        <div className="underline"></div>
         <p>
           Join us in our mission to empower Afghan girls through education. Here
           are some ways you can make a difference. Get involved today and be a
@@ -73,6 +74,32 @@ const Wrapper = styled.div`
     font-size: 20px;
     font-weight: 400;
     line-height: 43px;
+  }
+
+  .underline {
+    height: 5px;
+    width: 200px;
+    background-color: #73d1fa;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    .underline {
+      width: 100px;
+      height: 3px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .invovled-container {
+      flex-direction: column;
+    }
   }
 `;
 

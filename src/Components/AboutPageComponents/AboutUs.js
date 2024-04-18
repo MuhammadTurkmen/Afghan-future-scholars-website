@@ -82,6 +82,29 @@ const Wrapper = styled.div`
     border: 10px solid #73d1fa;
     border-radius: 100px 0 100px 0;
   }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding: 3.5rem 2rem;
+    }
+
+    .images-container {
+      display: none;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .underline {
+      height: 3px;
+      width: 70px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 
 export default AboutUs;

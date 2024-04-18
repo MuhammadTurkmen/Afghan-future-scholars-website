@@ -119,6 +119,51 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: start;
   }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding: 2rem 2rem;
+      padding-bottom: 10rem;
+    }
+
+    .title {
+      font-size: 30px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .underline {
+      margin: 0 auto;
+      width: 107px;
+    }
+
+    .programs-container {
+      gap: 10rem;
+    }
+
+    .card {
+      flex-direction: column-reverse;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h4 {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .text-container {
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+      height: 225px;
+    }
+  }
 `;
 
 export default Programs;
