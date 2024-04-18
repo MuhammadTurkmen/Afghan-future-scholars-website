@@ -12,19 +12,20 @@ function Contact() {
           <form className="form">
             {/* Name input */}
             <label htmlFor="name">Your Name</label>
-            <input type="text" name="" id="name" />
+            <input type="text" name="" id="name" required />
 
             {/* Email input */}
             <label htmlFor="email">Email Address</label>
-            <input type="text" name="" id="email" />
+            <input type="email" name="" id="email" required />
 
             {/* Phone Number input */}
             <label htmlFor="phone">Phone Number</label>
-            <input type="text" name="" id="phone" />
+            <input type="number" name="" id="phone" required />
 
             {/* text Area */}
             <label htmlFor="message">Your Message</label>
-            <textarea name="" id="message" rows="5"></textarea>
+            <textarea name="" id="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
           </form>
           <div className="text-container">
             <h2>
@@ -150,6 +151,57 @@ const Wrapper = styled.div`
   a {
     font-size: 20px;
     color: #000;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding: 2rem;
+      padding-bottom: 10rem;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .form-container {
+      flex-direction: column;
+    }
+
+    .form {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 2rem 1.5rem;
+      padding-top: 0;
+    }
+
+    label {
+      font-size: 16px;
+    }
+
+    input {
+      padding: 0.5rem;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 1rem;
+      margin-top: 5rem;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      background-color: #9bdaf5;
+      box-sizing: border-box;
+      font-size: 20px;
+    }
+
+    textArea {
+      height: 150px;
+    }
+
+    h2,
+    p {
+      font-size: 16px;
+    }
   }
 `;
 
