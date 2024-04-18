@@ -26,6 +26,8 @@ function Milestones() {
           })}
         </div>
       </div>
+
+      {/* second container */}
       <div className="success-container">
         <h1 className="title">Our Success</h1>
         <div className="underline"></div>
@@ -162,6 +164,46 @@ const Wrapper = styled.div`
 
     p {
       font-size: 19px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    /* First Container Styles */
+
+    .card-container {
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+
+    .underline {
+      height: 2px;
+      width: 66px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    .card {
+      width: 100%;
+
+      h1 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    /* Second contianer Styles */
+    .success-container {
+      padding: 0 4rem;
+      margin-top: 6rem;
+    }
+    .boxs-container {
+      flex-direction: column;
+      flex-wrap: wrap;
     }
   }
 `;

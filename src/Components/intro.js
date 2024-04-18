@@ -103,6 +103,10 @@ const Wrapper = styled.div`
   }
 
   @media only screen and (max-width: 800px) {
+    .container {
+      padding: 4.35rem 2rem;
+      padding-bottom: 10rem;
+    }
     .text-container {
       text-align: center;
     }

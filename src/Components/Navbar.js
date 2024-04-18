@@ -8,7 +8,7 @@ import { RiMenu4Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Wrapper>

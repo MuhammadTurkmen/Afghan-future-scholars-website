@@ -58,7 +58,7 @@ export const milestones_cards = [
     img: book,
   },
   {
-    title: "TOEFL Class",
+    title: "Special Grammar ",
     desc: "Our tailored programs help students achieve their best scores, enhancing their chances of securing scholarships and opportunities abroad",
     img: coffee,
   },
