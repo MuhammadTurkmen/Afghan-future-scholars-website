@@ -100,6 +100,19 @@ const Wrapper = styled.div`
     .invovled-container {
       flex-direction: column;
     }
+
+    img {
+      width: 244px;
+      height: 244px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
   }
 `;
 
