@@ -36,11 +36,14 @@ function Navbar() {
               </NavLink>
             );
           })}
-          <Link to="/involved" className="donate">
+          <Link
+            to="/involved"
+            className="donate"
+            onClick={() => setIsOpen(false)}>
             Donate us
           </Link>
         </div>
-        <Link className="donate" to="/">
+        <Link className="donate" to="/involved">
           Donate Us
         </Link>
         <span className="bars">
