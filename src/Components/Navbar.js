@@ -22,6 +22,9 @@ function Navbar() {
               </NavLink>
             );
           })}
+          <Link to="/involved" className="donate">
+            Donate us
+          </Link>
         </div>
         <Link className="donate" to="/">
           Donate Us
@@ -63,6 +66,10 @@ const Wrapper = styled.main`
       color: #73d1fa;
       transform: scale(1.1);
     }
+
+    .donate {
+      display: none;
+    }
   }
 
   .donate {
@@ -82,6 +89,32 @@ const Wrapper = styled.main`
 
   .active {
     color: #73d1fa !important;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .links-container {
+      position: fixed;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      padding-right: 44px;
+
+      a {
+        font-size: 20px;
+      }
+
+      .donate {
+        display: block;
+        margin: 0 auto;
+        margin-top: auto;
+        margin-bottom: 2rem;
+      }
+    }
   }
 `;
 
