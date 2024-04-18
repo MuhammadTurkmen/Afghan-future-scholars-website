@@ -114,6 +114,10 @@ const Wrapper = styled.main`
         margin-top: auto;
         margin-bottom: 2rem;
       }
+
+      .donate:hover {
+        color: black;
+      }
     }
   }
 `;
