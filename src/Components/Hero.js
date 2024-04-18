@@ -62,6 +62,22 @@ const Wrapper = styled.div`
       transform: scale(1.1);
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+    .btn-container {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
 `;
 
 export default Hero;

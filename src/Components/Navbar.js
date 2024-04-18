@@ -178,9 +178,10 @@ const Wrapper = styled.main`
     .donate {
       padding: 0.5rem 1.5rem;
       margin-left: auto;
+      font-size: 16px;
     }
     .bars {
-      font-size: 50px;
+      font-size: 40px;
       margin-left: 1rem;
       margin-bottom: -0.5rem;
       display: block;

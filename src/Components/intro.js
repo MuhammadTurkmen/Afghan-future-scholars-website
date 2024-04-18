@@ -101,6 +101,34 @@ const Wrapper = styled.div`
     transform: scale(1.1);
     opacity: 0.8;
   }
+
+  @media only screen and (max-width: 800px) {
+    .text-container {
+      text-align: center;
+    }
+
+    .girl {
+      display: none;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    .underline {
+      height: 2px;
+      width: 66px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
 `;
 
 export default intro;
